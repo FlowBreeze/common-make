@@ -1,0 +1,4 @@
+CURRENT_DIR := $(dir $(lastword $(MAKEFILE_LIST)))
+
+include $(CURRENT_DIR)/lib/sys.mk
+include $(CURRENT_DIR)/lib/util.mk
